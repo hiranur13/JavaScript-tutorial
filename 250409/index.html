@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pelit Pastaneleri</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- owl -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="sabitler.css">
+    <link rel="stylesheet" href="tasarim.css">
+  </head>
+  <body>
+    
+    <!-- üst kısım -->
+     <header>
+        <!-- 1.üst satır -->
+         <div class="bg-secondary">
+            <div class="container p-2">
+                <div class="row">
+                    <div class="col-12 d-flex">
+                       <!-- lang -->
+                       <ul class="nav" id="lang-menu">
+                        <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="#">TR</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">EN</a>
+                        </li>
+                      </ul>
+
+                      <!-- social -->
+                      <ul class="nav" id="social-menu">
+                        <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="#"><i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"><i class="bi bi-twitter"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-pinterest"></i></a>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-linkedin"></i></a>
+                        </li>                      
+                      </ul>
+                      
+                      <!-- search -->
+                      <form id="search-panel" class="d-flex ms-auto" role="search">
+                        <input class="form-control rounded-0 bg-dark border-0 text-white" type="search" placeholder="Ürün Arama" aria-label="Search">
+                        <button class="btn btn-dark rounded-0 border-0 " type="submit"><i class="bi bi-search"></i></button>
+                      </form>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+         <!-- 2.üst satır -->
+         <div>
+            <div class="container">
+                <div class="row justify-content-center py-3">
+                    <div class="col-4 col-md-2">
+                        <a href="index.html"><img src="upload/pelit-logo-2.png" alt="Pelit Logo" class="img-fluid "></a>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+         <!-- 3.üst satır -->
+         <div class="bg-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav id="main-menu" class="navbar navbar-expand-lg" data-bs-theme="dark">
+                            <div class="container-fluid">
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Ana Sayfa</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="yeni-urun.html">Yeni Ürün</a>
+                                  </li>
+                                  <!-- Mega Menu Yapımı -->
+                                  <li class="nav-item dropdown position-static">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Ürünler
+                                    </a>
+                                    <ul class="dropdown-menu start-0 end-0 m-0 border-0 rounded-0" data-bs-theme="light">
+                                      <li>
+                                        <div class="container">
+                                          <!-- row1 -->
+                                          <div class="row">
+                                            <div class="col-12">
+                                              <h2 class="text-center display-5 "> Tüm Ürünler</h2>
+                                            </div>
+                                          </div>
+                                          <!-- row2 -->
+                                          <div class="row">
+                                            <div class="col-12 col-md-3">
+                                              <h5 class="display-6 text-danger">Pasta  Çeşitleri</h5>
+                                              <nav class="nav flex-column">
+                                                <a class="nav-link link-dark" href="#">Çilekli Pasta</a>
+                                                <a class="nav-link link-dark" href="#">Çikolatalı Pasta</a>
+                                                <a class="nav-link link-dark" href="#">Orman Meyveli Pasta</a>
+                                                <a class="nav-link link-dark" href="#">Lotuslu Pasta</a>
+                                                <a class="nav-link link-dark" href="#">Frambuazlı Cheescake</a>
+                                                <a class="nav-link link-dark" href="#">Limonlu Cheescake</a>
+                                              </nav>
+                                            </div>
+                                            <div class="col-12 col-md-3">
+                                              <h5 class="display-6 text-danger">Kurabiyeler</h5>
+                                              <nav class="nav flex-column">
+                                                <a class="nav-link link-dark" href="#">Çikolatalı Cookie</a>
+                                                <a class="nav-link link-dark" href="#">Elmalı Kurabiye</a>
+                                                <a class="nav-link link-dark" href="#">Tuzlu Kurabiye</a>
+                                                <a class="nav-link link-dark" href="#">Lotuslu Kurabiye</a>
+                                                <a class="nav-link link-dark" href="#">Dubai Kurabiye</a>
+                                                <a class="nav-link link-dark" href="#">Tarçınlı Kurabiye</a>
+                                              </nav>
+                                            </div>
+                                            <div class="col-12 col-md-3">
+                                              <h5 class="display-6 text-danger">Eklerler</h5>
+                                              <nav class="nav flex-column">
+                                                <a class="nav-link link-dark" href="#">Çikolatalı Ekler</a>
+                                                <a class="nav-link link-dark" href="#">Elmalı Ekler</a>
+                                                <a class="nav-link link-dark" href="#">Tuzlu Ekler</a>
+                                                <a class="nav-link link-dark" href="#">Lotuslu Ekler</a>
+                                                <a class="nav-link link-dark" href="#">Dubai Ekler</a>
+                                                <a class="nav-link link-dark" href="#">Tarçınlı Ekler</a>
+                                              </nav>
+                                            </div>
+                                            <div class="col-12 col-md-3">
+                                              <div class="row g-3">
+                                                <div class="col-6">
+                                                  <a href="#"><img src="upload/balkabakli-cheseecakes-1-350x267.jpg" class="rounded img-fluid" alt="Beyaz İnci"></a>
+                                                </div>
+                                                <div class="col-6">
+                                                  <a href="#"><img src="upload/cikolatali-cheseecake1-1-350x267.jpg" class="rounded img-fluid" alt="Beyaz İnci"></a>
+                                                </div>
+                                                <div class="col-6">
+                                                  <a href="#"><img src="upload/mozaik-piramit-baton-1-350x267.jpg" class="rounded img-fluid" alt="Beyaz İnci"></a>
+                                                </div>
+                                                <div class="col-6">
+                                                  <a href="#"><img src="upload/tart-visneli-6-350x267.jpg" class="rounded img-fluid" alt="Beyaz İnci"></a>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="https://www.cikolatamuzesi.com.tr" >Çikolata Müzesi</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a href="hediye.html" class="nav-link">Hediye Öneri</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a href="iletisim.html" class="nav-link">İletişim</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a href="hakkimizda.html" class="nav-link">Hakkımızda</a>
+                                  </li>
+                                  
+                                </ul>
+                                <!-- sonra Güncelenecek -->
+                              </div>
+                            </div>
+                          </nav>
+                    </div>
+                </div>
+            </div>
+         </div>
+     </header>
+
+     <!-- orta kısım -->
+      <main>
+        <!-- 1.orta satır -->
+         <div>
+            <div id="pelitSlider" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="upload/chocolatespecial.jpg" class="d-block w-100" alt="Çikolatalı Pasta">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="upload/selaletr.jpg" class="d-block w-100" alt="Çikolatalı Pasta">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="upload/portakallicileklitr.jpg" class="d-block w-100" alt="Çikolatalı Pasta">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#pelitSlider" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Geri</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#pelitSlider" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">İleri</span>
+                </button>
+              </div>
+         </div>
+
+         <!-- 2.orta satır -->
+          <div class="container" id="bolum1">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card p-3">
+                        <div class="card-body p-4 rounded-3 text-center">
+                          <h5 class="card-title ">Şubeler</h5>
+                          <p class="card-text ">Kolayca ulaşabileceğiniz şubelerimiz.</p>
+                          <a href="#" class="card-link">TIKLA</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card p-3">
+                      <div class="card-body p-4 rounded-3 text-center">
+                        <h5 class="card-title ">Organizasyon</h5>
+                        <p class="card-text ">Kolayca ulaşabileceğiniz şubelerimiz.</p>
+                        <a href="#" class="card-link">TIKLA</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card p-3">
+                    <div class="card-body p-4 rounded-3 text-center">
+                      <h5 class="card-title ">Kataloglarımız</h5>
+                      <p class="card-text ">Kolayca ulaşabileceğiniz şubelerimiz.</p>
+                      <a href="#" class="card-link">TIKLA</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+
+          <!-- owl carousel -->
+          <div class="row mt-3">
+            <div class="owl-carousel owl-theme">
+              <div>
+                <img src="upload/balkabakli-cheseecakes-1-350x267.jpg" class="card-img-top" alt="Örnek Resim"> 
+              </div>
+              <div>
+                <img src="upload/tart-meyve-kokteyl-6-350x267.jpg" class="card-img-top" alt="Örnek Resim"> 
+              </div>
+              <div>
+                <img src="upload/parfe-balkabakli-1-350x267.jpg" class="card-img-top" alt="Örnek Resim"> 
+              </div>
+              <div>
+                <img src="upload/tart-limonlu-3-350x267.jpg" class="card-img-top" alt="Örnek Resim"> 
+              </div>
+              <div>
+                <img src="upload/tart-frambuazli-7-350x267.jpg" class="card-img-top" alt="Örnek Resim"> 
+              </div>
+              <div>
+                <img src="upload/tart-visneli-6-350x267.jpg" class="card-img-top" alt="Örnek Resim"> 
+              </div>
+              <div>
+                <img src="upload/balkabakli-cheseecakes-1-350x267.jpg" class="card-img-top" alt="Örnek Resim"> 
+              </div>
+            </div>
+          </div>
+          </div>
+      </main>
+
+      <!-- alt kısım -->
+       <footer class="bg-secondary">
+        
+        <!-- 1.alt satır -->
+        <div class="container  mt-4 py-3">
+          <div class="row justify-content-center">
+            <div class="col-md-2">
+              <a href="index.html"><img src="upload/logo-bottom-min.png" alt="Pelit Logo" class="img-fluid "></a>
+            </div>
+          </div>
+          
+        </div>
+
+        <!-- yatay çizgi -->
+        <div class="container">
+          <div class="yatay-cizgi">
+        </div>
+        
+          
+        </div>
+
+        <!-- 2.alt satır -->
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Bilgi Toplama</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Aydınlatma Metni</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Pelit Pastacılık</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3.alt satır -->
+        <div class="bg-primary">
+          <div class="container">
+            <div class="row pt-3 text-center align-items-center">
+              <div class="col-md-4 text-white">
+                <h4>Pelit Yıllardır sizinle...</h4>
+              </div>
+              <div class="col-md-4 text-white">
+                Pelit 2020 &copy; Tüm Hakkaları Saklıdır
+              </div>
+              <div class="col-md-4 text-white d-flex">
+                <ul class="nav" id="social-menu">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#"><i class="bi bi-facebook"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="bi bi-twitter"></i></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="bi bi-pinterest"></i></a>
+                    </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="bi bi-linkedin"></i></a>
+                  </li>                      
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+       </footer>
+
+     <!-- jQuery (Owl Carousel için gereklidir) -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <!-- Owl Carousel JS -->
+     <script src="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+        <!-- Owl Carousel Başlatma -->
+        <script>
+             $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+            loop: false,         // Sonsuz döngü aktif
+            autoplay: true,        // Otomatik oynatma
+            margin: 10,         // Öğeler arası boşluk
+            dots:true,          //otomatik oynatır
+            responsive: {
+                0:    { items: 1 },
+                576:  { items: 2 },
+                768:  { items: 3 },
+                992:  { items: 4 }
+            }
+            });
+        });
+        </script>
+  </body>
+</html>

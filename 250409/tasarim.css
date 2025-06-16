@@ -1,0 +1,70 @@
+.btn-dark {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #4E4540;
+    --bs-btn-border-color: #4E4540;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #424649;
+    --bs-btn-hover-border-color: #373b3e;
+    --bs-btn-focus-shadow-rgb: 66,70,73;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #4d5154;
+    --bs-btn-active-border-color: #373b3e;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #212529;
+    --bs-btn-disabled-border-color: #212529;
+}
+
+.btn-primary{
+    background-color: var(--bs-primary);
+}
+
+/* üst kısım */
+#lang-menu{
+    border-right: var(--bs-border-width) solid var(--bs-white);
+}
+
+#lang-menu a,
+#social-menu a{
+    color: var(--bs-white);
+}
+
+#lang-menu a:hover{
+    color: var(--bs-black);
+    background-color: var(--bs-white);
+}
+
+#social-menu a:hover{
+    color: var(--bs-primary);
+}
+
+input[type="search"]::placeholder{
+    color: var(--bs-secondary);
+}
+
+input[type="search"]:focus{
+    box-shadow: none;
+}
+
+/* bölüm 1 */
+#bolum1{
+    position: relative;
+    z-index: 100;
+    margin-top: -50px;
+}
+
+#bolum1 .card{
+    background-color: var(--bs-primary-bg-subtle);
+}
+
+#bolum1 .card-body{
+    border: 2px solid var(--bs-white);
+}
+
+.yatay-cizgi{
+    border-bottom: 2px solid var(--bs-white);
+}
+
+
+
+
